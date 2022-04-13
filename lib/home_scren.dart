@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     // TODO: implement initState
     super.initState();
 
-    /// Panggil initial provider nya
+    /// Panggil initial provider nya untuk mendaftarkan pemilik controllernya
     context.read<HomeProvider>().initialized(this);
   }
 
