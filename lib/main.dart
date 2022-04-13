@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
+        /// Mendaftarkan provider nya suapaya bisa di panggil global
         ChangeNotifierProvider(create: (_) => HomeProvider()),
       ],
       child: MaterialApp(
